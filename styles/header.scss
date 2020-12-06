@@ -78,11 +78,13 @@
 	&__navigation {
 		flex-grow: 1;
 		display: flex;
+		color: #2b292d;
 	}
-
 	&__nav-item {
 		padding: 0 10px;
 		margin: 0 20px;
+		color: #2b292d;
+
 		&:last-child {
 			&::after {
 				content: "";
@@ -100,11 +102,8 @@
 		}
 	}
 
-	&__btn {
-	}
 	&__menu {
 		width: 58px;
-
 		display: flex;
 		justify-content: center;
 		align-items: center;

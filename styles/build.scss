@@ -46,12 +46,13 @@
 
 	&__bg {
 		margin: 36px 0 0px;
-		@include br-pad {
-			transform: translateX(40%);
-			margin: 0;
-		}
 		img {
 			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+			@include br-pad {
+				margin: 0 -110px 0 auto;
+			}
 		}
 	}
 }

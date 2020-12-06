@@ -1,8 +1,8 @@
-@mixin br-mobile{
-	@media screen and (min-width: $md4+px) {
-		@content;
-	}
-}
+// @mixin br-mobile{
+// 	@media screen and (min-width: $md4+px) {
+// 		@content;
+// 	}
+// }
 @mixin br-pad {
 	@media screen and (min-width: 1400px) {
 		@content;

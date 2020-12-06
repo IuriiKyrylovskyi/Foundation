@@ -1,12 +1,12 @@
 .what {
 	background: #f4f5f7;
 	padding: 26px 5px;
-	@include br-mobile {
+	@include br-pad {
 		padding: 77px 0px;
 	}
 
 	&__row {
-		@include br-mobile {
+		@include br-pad {
 			display: flex;
 		}
 	}
@@ -15,7 +15,7 @@
 		font-size: 22px;
 		line-height: 32px;
 		margin: 20px 0;
-		@include br-mobile {
+		@include br-pad {
 			flex: 0 0 50%;
 			padding: 0 20px 0 0;
 		}
