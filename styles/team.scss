@@ -20,8 +20,11 @@
 		img {
 			max-width: 100%;
 			display: block;
-			margin: 0 auto;
+			// margin: 0 auto;
 		}
+	}
+	&__img{
+		margin: 0 auto;
 	}
 	&__img-caption {
 		display: none;

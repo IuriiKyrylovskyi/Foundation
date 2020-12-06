@@ -556,6 +556,8 @@ body {
 .team__column img {
   max-width: 100%;
   display: block;
+}
+.team__img {
   margin: 0 auto;
 }
 .team__img-caption {
