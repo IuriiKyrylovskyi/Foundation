@@ -653,6 +653,123 @@ body {
 .team__review-author {
   font-weight: 700;
 }
+.communicate {
+  padding: 50px 5px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate {
+    padding: 110px 0;
+  }
+}
+.communicate__top-row {
+  position: relative;
+}
+.communicate__top-row:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 1400px) {
+  .communicate__top-row {
+    display: flex;
+  }
+}
+.communicate__top-column img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__top-column {
+    flex: 0 0 50%;
+  }
+}
+.communicate__label {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #0189d1;
+  margin: 17px 0 18px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__label {
+    margin: 17px 0 24px;
+  }
+}
+.communicate__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__title {
+    max-width: 460px;
+  }
+}
+.communicate__text {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 18px 0 30px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__text {
+    margin: 30px 0 39px;
+    max-width: 460px;
+  }
+}
+.communicate__btn {
+  display: inline-flex;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.communicate__img-caption {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+  padding: 17px 0 40px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+    width: 100%;
+  }
+}
+.communicate__bottom-colunm {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 33px;
+}
+@media screen and (min-width: 1400px) {
+  .communicate__bottom-colunm {
+    font-size: 16px;
+    flex: 0 1 33.333%;
+    margin: 41px 15px 0;
+  }
+}
+.communicate__bottom-info {
+  letter-spacing: 1px;
+}
+.communicate__bottom-info span {
+  font-weight: 700;
+}
+.communicate__bottom-link {
+  display: block;
+  font-weight: 700;
+  color: #3040c4;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+
 .audience {
   background-color: rgba(0, 162, 199, 0.07);
   text-align: center;
@@ -757,6 +874,209 @@ body {
 }
 .card:hover .card__label {
   color: #fff;
+}
+
+.trusted {
+  margin: 39px 5px 50px;
+}
+@media screen and (min-width: 1400px) {
+  .trusted {
+    position: relative;
+    text-align: center;
+    margin: 76px 0 66px;
+  }
+}
+.trusted__label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3142c6;
+}
+.trusted__text {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 29px 0 32px;
+}
+@media screen and (min-width: 1400px) {
+  .trusted__text {
+    max-width: 750px;
+    margin: 28px auto 34px;
+  }
+}
+.trusted__review-bottom-info {
+  font-size: 16px;
+  line-height: 24px;
+}
+.trusted__review-author {
+  font-weight: 700;
+}
+.trusted__pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+@media screen and (min-width: 1400px) {
+  .trusted__pagination {
+    margin: 38px 0 56px;
+  }
+}
+.trusted__pagination span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(43, 41, 46, 0.2);
+  margin: 0 10px;
+}
+.trusted__pagination span._active {
+  background: #3142c5;
+}
+.trusted__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1400px) {
+  .trusted__img {
+    position: absolute;
+    bottom: -66px;
+    right: 26px;
+  }
+}
+
+.hiring {
+  padding: 50px 5px;
+  border-top: 1px solid #e3e3e3;
+}
+@media screen and (min-width: 1400px) {
+  .hiring {
+    padding: 110px 0;
+  }
+}
+.hiring__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+}
+.hiring__text {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin: 18px 0 30px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__text {
+    display: block;
+    max-width: 555px;
+    margin: 20px auto 28px;
+  }
+}
+.hiring__btn {
+  margin: 0 0 39px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__btn {
+    display: inline-flex;
+    margin: 28px auto 110px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.hiring__links-box {
+  margin: 0;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__links-box {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+.hiring__link {
+  display: flex;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px;
+  transition: all 0.2s linear 0.1s;
+}
+.hiring__link:not(:last-child) {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link {
+    height: 81px;
+    align-items: center;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  }
+  .hiring__link:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.hiring__link svg {
+  fill: rgba(43, 49, 64, 0.6);
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link:hover {
+    background: #3141c5;
+  }
+  .hiring__link:hover .hiring__link-title,
+.hiring__link:hover .hiring__link-info {
+    color: #fff;
+  }
+  .hiring__link:hover svg {
+    fill: #fff;
+  }
+}
+.hiring__link-left {
+  flex-grow: 1;
+  padding: 19px 21px 19px 20px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link-left {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+  }
+}
+.hiring__link-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  min-height: 100%;
+  background: #d5d4d5;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link-right {
+    background: transparent;
+  }
+}
+.hiring__link-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link-title {
+    flex: 0 0 66%;
+    margin: 0;
+  }
+}
+.hiring__link-info {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(43, 41, 46, 0.6);
+}
+@media screen and (min-width: 1400px) {
+  .hiring__link-info {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
