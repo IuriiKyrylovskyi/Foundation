@@ -53,16 +53,6 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body.lock {
-  overflow: hidden;
-}
-@media (max-width: 767.98px) {
-  body.lock {
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
-  }
-}
 
 input,
 button,
@@ -378,6 +368,7 @@ body {
   font-weight: 700;
   margin: 0px 0px 10px 0px;
 }
+
 .brands {
   background: #ffffff;
   box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
@@ -673,6 +664,7 @@ body {
 .team__review-author {
   font-weight: 700;
 }
+
 .communicate {
   padding: 50px 5px;
 }

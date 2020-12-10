@@ -24,7 +24,6 @@
 			display: none;
 		}
 		&:last-child {
-			// margin: 0 0 0 auto;
 			cursor: pointer;
 		}
 		@include br-pad {
@@ -65,7 +64,6 @@
 	&__logo-info {
 		font-size: 20px;
 		line-height: 25px;
-		// margin: 0px 15px;
 	}
 
 	&__label {
@@ -89,7 +87,6 @@
 		padding: 0 10px;
 		margin: 0 20px;
 		color: #2b292d;
-
 		&:last-child {
 			&::after {
 				content: "";

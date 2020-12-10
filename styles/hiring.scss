@@ -44,11 +44,9 @@
 	}
 
 	&__link {
-		// display: block;
 		display: flex;
 		border: 1px solid rgba(43, 41, 45, 0.2);
 		border-radius: 8px;
-		// margin: 15px 0;
 		transition: $tr;
 		&:not(:last-child){
 				margin-bottom: 15px;
@@ -60,7 +58,6 @@
 			&:not(:last-child){
 				margin-bottom: 20px;
 			}
-			// margin: 20px 0;
 		}
 		svg {
 			fill: hsla(223, 19%, 21%, 0.6);
